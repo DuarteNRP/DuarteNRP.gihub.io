@@ -1,0 +1,170 @@
+#grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ; /* 13 COL LAYOUT */
+  grid-gap: 0px;
+  justify-content: center;
+}
+.square{
+  border: 1px solid black;
+}
+.square1{
+  background: black;
+}
+.textBox {
+  position: relative;
+  height: 30px;
+  width: 25px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.textBoxBlack {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: black;
+}
+.button {
+  align-self: center;
+	height: 35px;
+  width: 35px;
+}
+.number {
+  bottom: 1px;
+  right: 1px;
+  font-size: 12px;
+  height: 11px;
+  line-height: 11px;
+}
+
+.header-wrapper{
+  display: flex;
+  align-items: center;
+  height: 6vh;
+}
+
+.header-logo{
+  margin: 0;
+  margin-left: 2vh;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5vh;
+}
+
+.grid-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-wrapper{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.hints-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 10vh;
+  line-height: 3vh;
+  list-style: none;
+}
+
+.hints-wrapper li{
+  margin: 5vh;
+}
+
+.hints-wrapper p{
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+input {
+     margin:0;
+     padding:0;
+     border:0;
+     outline:0;
+     font-size:100%;
+     vertical-align:baseline;
+ }
+
+ body {
+     line-height:1;
+ }
+
+ article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section{
+     display:block;
+ }
+
+ nav ul {
+    list-style:none;
+ }
+
+ blockquote, q {
+    quotes:none;
+ }
+
+ blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content:none;
+ }
+
+ a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+ }
+
+ /* change colors to suit your needs */
+ ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+ }
+
+ /* change colors to suit your needs */
+ mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+ }
+
+ del {
+    text-decoration: line-through;
+ }
+
+ abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+ }
+
+ table {
+    border-collapse:collapse;
+    border-spacing:0;
+ }
+
+ /* change border color to suit your needs */
+ hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+ }
