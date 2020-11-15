@@ -16,6 +16,9 @@ const matrix = [
 	["l","","c","a","s","t","r","o","","n","","a","n","g","i"]
 ];
 function submitAnswer(){
+	document.getElementById("demo").innerHTML = "";
+	document.getElementById("demo").innerHTML = "O Pedro já não é o favorito";
+	return;
 	let flag=0;
 	for(let i=0;i<15;i++)
 		for(let j=0;j<15;j++){
