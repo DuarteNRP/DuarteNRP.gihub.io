@@ -19,7 +19,7 @@ function submitAnswer(){
 	document.getElementById("demo").innerHTML = "";
 	document.getElementById("demo").innerHTML = "O Pedro já não é o favorito";
 	return;
-	let flag=0;
+	/*let flag=0;
 	for(let i=0;i<15;i++)
 		for(let j=0;j<15;j++){
 			const string=i+"cell"+j;
@@ -31,7 +31,7 @@ function submitAnswer(){
 		document.getElementById("demo").innerHTML = "";
 	if (flag)
 		document.getElementById("demo").innerHTML = "Resposta errada, "+flag+" letras erradas ou espaços vazios";
-	else document.getElementById("demo").innerHTML = "Certo!";
+	else document.getElementById("demo").innerHTML = "Certo!";*/
 }
 function tips(){
 	let array=[];
