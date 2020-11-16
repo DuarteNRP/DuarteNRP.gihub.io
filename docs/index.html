@@ -13,252 +13,265 @@
   </header>
   <div id="rules">
     <div class="submit-popup">
-      <h3>RULES</h3><hr>
-      Regras lalalalalalala.
+      <span class="close">&times;</span>
+      <h3>Regras</h3><hr>
+      1) Não existe qualquer tipo de acento;<br>
+      2) Escreve sempre com minúsculas;<br>
+      3) Alguns são alcunhas que talvez não conheças;<br>
+      4) Tens o botão "Letter" que te dará uma letra que ainda te falta ou então trocará uma que esteja errada; <br>
+      5) Tens o botão "Reset" que limpará todo o tabuleiro de jogo;<br>
+      6) Existe o botão "Solutions" que te fornecerá todas as soluções do jogo;<br>
+      7) Quando achares que já descobriste tudo, carrega no botão "Submit" para verificar as tuas respostas;<br>
+      8) O botão "Submit" só estará disponível quando todos os espaços estiverem completos;<br>
+      8) Diverte-te :).<br>
     </div>
   </div>
   <div id="final-screen">
     <div class="submit-popup">
-      <h3>TITLE</h3><hr>
-      Muito bem Duarte, ganhaste. Agora vai para o caralho.
+      <span class="close">&times;</span>
+      <h3>Ka-Pra-Nos Completo</h3><hr>
+      Parabéns, completaste o jogo todo! Como toda a gente sabe, este centenário foi algo particularmente incomum, dado a situação que vivemos, porém isso não foi ( nem seria ) um obstáculo para que este não fosse celebrado com todo o orgulho e dedicação que sempre estiveram presentes.<br><br>
+      "Neste ano tão peculiar, em que nos encontramos afastados, relembramos a velha máxima: em qualquer canto do mundo, algures onde haja mais que um lyso, mantemos vivo o espírito lyso que é eterno."<br><br>
+      <h3><b>Feliz LXI centenário! Um bem haja a toda a família lysa.</b></h3>
+      
     </div>
   </div>
   <div class="main-container">
     <div class="grid-wrapper">
       <div id="grid">
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=0cell0><span class="number">1</span></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=0cell1></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=0cell2><span class="number">2</span></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=0cell3></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=0cell4></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell0><span class="number">1</span></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell1></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell2><span class="number">2</span></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell3></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell4></div>
         <div class="square1"> <span class="number"></span><input type="text" class="textBoxBlack" maxlength="0" id=0cell5></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=0cell6> <span class="number">3</span> </div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=0cell7> <span class="number">4</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=0cell8></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=0cell9></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=0cell10></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=0cell11></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=0cell12></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=0cell13></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell6> <span class="number">3</span> </div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell7> <span class="number">4</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell8></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell9></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell10></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell11></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell12></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=0cell13></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=0cell14></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=1cell0></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=1cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=1cell1></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=1cell2></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=1cell2></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=1cell3></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=1cell4></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=1cell5> <span class="number">5</span> </div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=1cell5> <span class="number">5</span> </div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=1cell6></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=1cell7></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=1cell7></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=1cell8></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=1cell9></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=1cell10></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=1cell11></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=1cell12></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=1cell13></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=1cell14> <span class="number">6</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=2cell0></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=1cell14> <span class="number">6</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=2cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=2cell1></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=2cell2></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=2cell2></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=2cell3></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=2cell4></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=2cell5></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=2cell5></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=2cell6></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=2cell7></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=2cell7></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=2cell8></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=2cell9></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=2cell10> <span class="number">7</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=2cell11></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=2cell12></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=2cell13></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=2cell14></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=3cell0></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=2cell10> <span class="number">7</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=2cell11></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=2cell12></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=2cell13></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=2cell14></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=3cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=3cell1></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=3cell2></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=3cell2></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=3cell3></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=3cell4> <span class="number">8</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=3cell5></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=3cell6></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=3cell7></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=3cell8></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=3cell4> <span class="number">8</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=3cell5></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=3cell6></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=3cell7></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=3cell8></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=3cell9></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=3cell10></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=3cell11></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=3cell12></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=3cell13></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=3cell14></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=4cell0></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=3cell14></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=4cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=4cell1></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=4cell2></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=4cell2></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=4cell3></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=4cell4></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=4cell5></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=4cell5></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=4cell6></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=4cell7></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=4cell7></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=4cell8></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=4cell9></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=4cell10> <span class="number">9</span> </div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=4cell10> <span class="number">9</span> </div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=4cell11></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=4cell12> <span class="number">10</span> </div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=4cell12> <span class="number">10</span> </div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=4cell13></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=4cell14></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=5cell0></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=4cell14></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=5cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=5cell1></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=5cell2></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=5cell3></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=5cell4> <span class="number">11</span> </div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=5cell4> <span class="number">11</span> </div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=5cell5></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=5cell6></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=5cell7></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=5cell8></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=5cell9></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=5cell10></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=5cell10></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=5cell11></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=5cell12></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=5cell12></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=5cell13></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=5cell14></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=6cell0></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=5cell14></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=6cell1></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=6cell2> <span class="number">12</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=6cell3></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=6cell4></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=6cell5></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell2> <span class="number">12</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell3></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell4></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell5></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=6cell6></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=6cell7> <span class="number">13</span> </div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell7> <span class="number">13</span> </div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=6cell8></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=6cell9></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=6cell10> <span class="number">14</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=6cell11></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=6cell12></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=6cell13></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=6cell14></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell10> <span class="number">14</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell11></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell12></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell13></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=6cell14></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=7cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=7cell1></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=7cell2></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=7cell3></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=7cell4></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=7cell4></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=7cell5></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=7cell6> <span class="number">15</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=7cell7></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=7cell8></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=7cell6> <span class="number">15</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=7cell7></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=7cell8></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=7cell9></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=7cell10></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=7cell10></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=7cell11></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=7cell12></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=7cell12></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=7cell13></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=7cell14></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=8cell0> <span class="number">16</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=8cell1></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=8cell2></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=8cell3></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell0> <span class="number">16</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell1></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell2></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell3></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=8cell4></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=8cell5> <span class="number">17</span> </div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell5> <span class="number">17</span> </div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=8cell6></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=8cell7></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell7></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=8cell8></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=8cell9> <span class="number">18</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=8cell10></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=8cell11></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=8cell12></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell9> <span class="number">18</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell10></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell11></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell12></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=8cell13></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=8cell14> <span class="number">19</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=9cell0></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=8cell14> <span class="number">19</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=9cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=9cell1></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=9cell2></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=9cell3></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=9cell4></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=9cell5></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=9cell5></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=9cell6></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=9cell7></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=9cell7></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=9cell8></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=9cell9></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=9cell10></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=9cell10></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=9cell11></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=9cell12></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=9cell13></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=9cell14></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=10cell0> <span class="number">20</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=10cell1></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=10cell2></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=10cell3></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=10cell4></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=10cell5></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=10cell6></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=9cell14></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=10cell0> <span class="number">20</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=10cell1></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=10cell2></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=10cell3></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=10cell4></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=10cell5></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=10cell6></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=10cell7></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=10cell8></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=10cell9></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=10cell10></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=10cell11> <span class="number">21</span> </div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=10cell11> <span class="number">21</span> </div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=10cell12></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=10cell13> <span class="number">22</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=10cell14></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=11cell0></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=10cell13> <span class="number">22</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=10cell14></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=11cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=11cell1></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=11cell2></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=11cell3></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=11cell4></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=11cell5></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=11cell5></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=11cell6></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=11cell7> <span class="number">23</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=11cell8></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=11cell9></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=11cell10></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=11cell11></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=11cell7> <span class="number">23</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=11cell8></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=11cell9></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=11cell10></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=11cell11></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=11cell12></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=11cell13></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=11cell14></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=12cell0></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=11cell14></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=12cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=12cell1></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=12cell2> <span class="number">24</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=12cell3></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=12cell4></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=12cell5></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=12cell2> <span class="number">24</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=12cell3></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=12cell4></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=12cell5></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=12cell6></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=12cell7></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=12cell7></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=12cell8></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=12cell9></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=12cell10></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=12cell11></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=12cell11></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=12cell12></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=12cell13></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=12cell14></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=13cell0></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=12cell14></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=13cell0></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=13cell1></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=13cell2></div>
         <div class="square1"><input type="text" class="textBoxBlack" maxlength="0" id=13cell3> <span class="number">00</span> </div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=13cell4></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=13cell5></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=13cell6></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=13cell7></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=13cell7></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=13cell8></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=13cell9> <span class="number">25</span> </div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=13cell9> <span class="number">25</span> </div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=13cell10></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=13cell11></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=13cell11></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=13cell12></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=13cell13></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=13cell14></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=14cell0></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell0></div>
         <div class="square1"><input type="text" class="textBoxBlack" maxlength="0" id=14cell1> <span class="number">00</span> </div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=14cell2> <span class="number">26</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=14cell3></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=14cell4></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=14cell5></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=14cell6></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=14cell7></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell2> <span class="number">26</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell3></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell4></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell5></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell6></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell7></div>
         <div class="square1"><input type="text" class="textBoxBlack" maxlength="0" id=14cell8> <span class="number">00</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=14cell9></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell9></div>
         <div class="square1"> <span class="number"></span> <input type="text" class="textBoxBlack" maxlength="0" id=14cell10></div>
-        <div class="square"><input type="text" class="textBox" maxlength="1" id=14cell11> <span class="number">27</span> </div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=14cell12></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=14cell13></div>
-        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" id=14cell14></div>
+        <div class="square"><input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell11> <span class="number">27</span> </div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell12></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell13></div>
+        <div class="square"> <span class="number"> </span> <input type="text" class="textBox" maxlength="1" onkeyup="myFunction()" id=14cell14></div>
       </div>
     </div>
     <div class="buttons-wrapper">
       <button type="button" class="btn btn-light btn-lg" onClick="tips()">Letter</button>
       <button type="button" class="btn btn-light btn-lg" onClick="reset()">Reset</button>
       <button type="button" class="btn btn-light btn-lg" onClick="solutions()">Solutions</button>
-      <button type="button" class="btn btn-light btn-lg">Rules</button>
-      <button id="submit" type="button" class="btn btn-dark btn-lg" onClick()="submitAnswer()">Submit</button>
+      <button type="button" class="btn btn-light btn-lg" onClick="rulesButton()">Rules</button>
+      <button id="submit" type="button" disabled="disabled" class="btn btn-dark btn-lg" onClick="submitAnswer()">Submit</button>
     </div>
 
     <div class="hints-wrapper">

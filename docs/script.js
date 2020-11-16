@@ -15,6 +15,51 @@ const matrix = [
 	["e","","","","","","","t","","v","","r","","",""],
 	["l","","c","a","s","t","r","o","","n","","a","n","g","i"]
 ];
+function tips(){
+	let array=[];
+	for(let i=0;i<15;i++)
+		for(let j=0;j<15;j++){
+			const string=i+"cell"+j;
+			const test=document.getElementById(string).value;
+			if(matrix[i][j]!=="" && test!==matrix[i][j]){
+				array.push([string,matrix[i][j]]);
+			}
+		}
+	if(array.length===0) return;
+	if(array.length===1){
+		var btnSubmit = document.getElementById("submit");
+		btnSubmit.disabled = false;
+	}
+	const position=Math.floor(Math.random()*array.length);
+	document.getElementById(array[position][0]).value=array[position][1];
+}
+function solutions(){
+	var btnSubmit = document.getElementById("submit");
+	btnSubmit.disabled = false;
+	for(let i=0;i<15;i++)
+		for(let j=0;j<15;j++){
+			const string=i+"cell"+j;
+			const test=document.getElementById(string).value=matrix[i][j];
+		}
+}
+function reset(){
+	var btnSubmit = document.getElementById("submit");
+	btnSubmit.disabled = true;
+	for(let i=0;i<15;i++)
+		for(let j=0;j<15;j++){
+			const string=i+"cell"+j;
+			const test=document.getElementById(string).value="";
+		}
+}
+function rulesButton(){
+  const rules = document.getElementById("rules");
+  const span = document.getElementsByClassName("close")[0];
+  rules.style.display = "block";
+  span.onclick = function() {
+    rules.style.display = "none";
+  }
+
+}
 function submitAnswer(){
 	let flag = 0;
 	for(let i = 0; i<15; i++)
@@ -27,38 +72,26 @@ function submitAnswer(){
 		}
 
 	if (flag){
-
+		window.alert("Tens "+flag+" letra(s) errada(s)! Podes pedir uma letra para te ajudar.");
+		return;
 	}
-	else{
+	const submit  = document.getElementById("final-screen");
+	const span = document.getElementsByClassName("close")[1];
+	submit.style.display = "block";
+	span.onclick = function() {
+   submit.style.display = "none";
 	}
 }
-function tips(){
-	let array=[];
+function myFunction(){
+	var btnSubmit = document.getElementById("submit");
 	for(let i=0;i<15;i++)
 		for(let j=0;j<15;j++){
 			const string=i+"cell"+j;
 			const test=document.getElementById(string).value;
-			if(matrix[i][j]!=="" && test!==matrix[i][j]){
-				array.push([string,matrix[i][j]]);
+			if(matrix[i][j]!=="" && test===""){
+				btnSubmit.disabled = true;
+				return;
 			}
 		}
-	if(array.length===0) return;
-	console.log(array);
-	const position=Math.floor(Math.random()*array.length);
-	console.log()
-	document.getElementById(array[position][0]).value=array[position][1];
-}
-function solutions(){
-	for(let i=0;i<15;i++)
-		for(let j=0;j<15;j++){
-			const string=i+"cell"+j;
-			const test=document.getElementById(string).value=matrix[i][j];
-		}
-}
-function reset(){
-	for(let i=0;i<15;i++)
-		for(let j=0;j<15;j++){
-			const string=i+"cell"+j;
-			const test=document.getElementById(string).value="";
-		}
+	btnSubmit.disabled = false;
 }

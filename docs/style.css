@@ -5,7 +5,13 @@
   justify-content: center;
   background-color: white;
 }
-
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor:pointer;
+}
 #final-screen{
   display: none;
   position: absolute;
@@ -140,7 +146,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  text-align: center;
+  text-align: left;
   width: 60%;
   background-color: white;
   z-index: 100;
