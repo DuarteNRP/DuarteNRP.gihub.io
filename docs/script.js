@@ -16,22 +16,21 @@ const matrix = [
 	["l","","c","a","s","t","r","o","","n","","a","n","g","i"]
 ];
 function submitAnswer(){
-	document.getElementById("demo").innerHTML = "";
-	document.getElementById("demo").innerHTML = "O Pedro já não é o favorito";
-	return;
-	/*let flag=0;
-	for(let i=0;i<15;i++)
-		for(let j=0;j<15;j++){
+	let flag = 0;
+	for(let i = 0; i<15; i++)
+		for(let j=0; j<15; j++){
 			const string=i+"cell"+j;
 			const test=document.getElementById(string).value;
 			if(test!==matrix[i][j]){
 				flag+=1;
 			}
 		}
-		document.getElementById("demo").innerHTML = "";
-	if (flag)
-		document.getElementById("demo").innerHTML = "Resposta errada, "+flag+" letras erradas ou espaços vazios";
-	else document.getElementById("demo").innerHTML = "Certo!";*/
+
+	if (flag){
+
+	}
+	else{
+	}
 }
 function tips(){
 	let array=[];

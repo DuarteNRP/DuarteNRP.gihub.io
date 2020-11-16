@@ -8,8 +8,21 @@
 </head>
 <body>
   <header class=header-wrapper>
-    <h3 class="header-logo"></h3>
+    <img class="header-logo" src="lysos.jpg" alt="Lysos">
+    <h3 class="header-title">Ka-Pra-Nos</h3>
   </header>
+  <div id="rules">
+    <div class="submit-popup">
+      <h3>RULES</h3><hr>
+      Regras lalalalalalala.
+    </div>
+  </div>
+  <div id="final-screen">
+    <div class="submit-popup">
+      <h3>TITLE</h3><hr>
+      Muito bem Duarte, ganhaste. Agora vai para o caralho.
+    </div>
+  </div>
   <div class="main-container">
     <div class="grid-wrapper">
       <div id="grid">
@@ -244,9 +257,10 @@
       <button type="button" class="btn btn-light btn-lg" onClick="tips()">Letter</button>
       <button type="button" class="btn btn-light btn-lg" onClick="reset()">Reset</button>
       <button type="button" class="btn btn-light btn-lg" onClick="solutions()">Solutions</button>
-      <button type="button" class="btn btn-dark btn-lg" onClick="submitAnswer()">Submit</button>
+      <button type="button" class="btn btn-light btn-lg">Rules</button>
+      <button id="submit" type="button" class="btn btn-dark btn-lg" onClick()="submitAnswer()">Submit</button>
     </div>
-    <p id=demo></p>
+
     <div class="hints-wrapper">
       <li><p>Horizontais:</p><br>
         1) Meu padrinho lyso.<br>

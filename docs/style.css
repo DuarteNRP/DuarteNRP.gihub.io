@@ -3,7 +3,33 @@
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ; /* 13 COL LAYOUT */
   grid-gap: 0px;
   justify-content: center;
+  background-color: white;
 }
+
+#final-screen{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 50;
+}
+
+#rules{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 50;
+}
+
 .square{
   border: 1px solid black;
 }
@@ -38,18 +64,28 @@
   font-size: 12px;
   height: 11px;
   line-height: 11px;
-  color: black;
 }
 
 .header-wrapper{
   display: flex;
   align-items: center;
   height: 6vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
 }
 
 .header-logo{
   margin: 0;
   margin-left: 2vh;
+  white-space: nowrap;
+  width: 2%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.header-title{
+  margin: 0;
+  margin-left: 1vh;
   white-space: nowrap;
   font-weight: bold;
 }
@@ -82,6 +118,8 @@
   margin-top: 10vh;
   line-height: 3vh;
   list-style: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
 }
 
 .hints-wrapper li{
@@ -93,17 +131,41 @@
   font-weight: bold;
 }
 
+.submit-popup{
+  position: absolute;
+  display: table;
+  margin: auto;
+  padding: 2%;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  width: 60%;
+  background-color: white;
+  z-index: 100;
+  filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.3));
+  border-radius: 20px;
+}
+
 input {
      margin:0;
      padding:0;
      border:0;
      outline:0;
      font-size:100%;
-     vertical-align:baseline;
+     vertical-align: baseline;
  }
 
  body {
+     width: 100%;
      line-height:1;
+     position: relative;
+     text-align: center;
+     background-image: url("lysos.jpg");
+     background-size: 130%;
+     background-repeat: no-repeat;
+     background-position: center;
  }
 
  article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section{
